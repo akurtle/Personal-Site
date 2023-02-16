@@ -82,9 +82,7 @@ function widthSet(item,width,percent){
   item.style.left=i.toString()+"px";
 }
 
-
-
-
+ 
   
 
 
