@@ -1,3 +1,15 @@
+const widthScreen  = window.innerWidth || document.documentElement.clientWidth || 
+document.body.clientWidth;
+
+window.addEventListener('resize', objectWidthChange());
+
+function objectWidthChange(){
+  if(widthScreen!=1920){
+    widthSet(document.getElementsByClassName("obj1")[0],widthScreen,35)
+    widthSet(document.getElementsByClassName("obj2")[0],widthScreen,62.5)
+    widthSet(document.getElementsByClassName("obj3")[0],widthScreen,46.8)
+  }  
+}
 
 
 const allText=[
@@ -55,6 +67,8 @@ $( document ).ready(async function() {
     return new Promise(resolve => setTimeout(resolve, ms))
   }
 
+
+
 function centerItem(item,width){
   var i=0;
   i =(width/2)-100
@@ -62,21 +76,16 @@ function centerItem(item,width){
 }
 
 
-function widthSet(item,width){
+function widthSet(item,width,percent){
   var i=0;
-  i=(width*35)/100
+  i=(width*percent)/100
   item.style.left=i.toString()+"px";
 }
 
-const widthScreen  = window.innerWidth || document.documentElement.clientWidth || 
-document.body.clientWidth;
 
-if(widthScreen!=1920){
+
+
   
-}
-else{
-  for(var i=0;i<document.get)
-}
 
 
 
