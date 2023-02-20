@@ -13,8 +13,8 @@ function objectWidthChange(){
 
 
 const allText=[
-    {text:"Mirza", color:"red"},
-    {text:"a web developer", color:"lightblue"},
+    {text:"Mirza", color:"lightblue"},
+    {text:"a web developer", color:"red"},
     {text:"a learner", color:"lightgreen"}
 ]
 
@@ -81,9 +81,6 @@ function widthSet(item,width,percent){
   i=(width*percent)/100
   item.style.left=i.toString()+"px";
 }
-
- 
-  
 
 
 

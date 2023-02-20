@@ -247,15 +247,34 @@
     opacity: 0.5;
 }
 
+.mySkills{
+    background: #00171f;
+}
+
 .skill{
     height: 400px ;
-    background-color: #008ae8;
+    background: 
+    linear-gradient(
+        to bottom,
+        #00171f,
+      
+        #0575e6
+    );
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     font-size: 2rem;
     font-family:Roboto;
+
+    --mask:
+        radial-gradient(48.02px at 50% calc(100% - 67.50px),#000 99%,#0000 101%) calc(50% - 60px) 0/120px 100%,
+        radial-gradient(48.02px at 50% calc(100% + 37.50px),#0000 99%,#000 101%) 50% calc(100% - 30px)/120px 100% repeat-x;
+    -webkit-mask: var(--mask);
+            mask: var(--mask);
+    
+
+      
 }
 
 .stars1{
@@ -324,7 +343,9 @@
 
 #contact-me{
     text-align: center;
-    background-color:bisque;
+    font-family:Roboto;
+    font-size: 1.4rem;
+    background-color:#00171f;
     padding-top: 2%;
     padding-bottom: 2%;
 }
