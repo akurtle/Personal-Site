@@ -1,0 +1,55 @@
+
+body{
+    overflow-x: hidden;
+}
+
+.header{
+    width: 100vw;
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: gray;
+    display: flex;
+    height: 20vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius:200px ;
+}
+
+.header-text{
+    font-size: 100px;
+}
+
+
+.main-container{
+    border-top-right-radius: 200px;
+    width: 100vw;
+    margin-top: 50px;
+    gap: 20px;
+    background-color: gainsboro;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.holders{
+    margin-top: 10px;
+    padding-top: 10px;
+    height: 400px;
+    width: 300px;
+    justify-self: center;
+    border-radius:20px;
+}
+
+.holder17>img{
+ 
+   height: 180px;
+
+
+}
+
+.btn{
+    align-items: baseline;
+}

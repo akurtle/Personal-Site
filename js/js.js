@@ -22,6 +22,8 @@ const screenWidth=screen.width
 
 $( document ).ready(async function() {
     carousel(allText, "#textToCome")
+    var dot = [];
+
   });
   
   async function typeSentence(sentence, eleRef, delay = 100) {
@@ -83,6 +85,19 @@ function widthSet(item,width,percent){
 }
 
 
+function randomDots(){
+  this.obj = document.createElement("div");
+  this.obj.classList.add("boxOfStars");
+  this.obj.style.top = (($("#aboutmeStuff")).height*Math.random())+"px" ;
+  this.obj.style.left = (($("#aboutmeStuff")).width*Math.random())+"px" ;
+  this.size = Math.floor(5*Math.random())+ 7;
+  this.obj.style.height= this.size+"px";
+  this.obj.style.width= this.size+"px";
+  this.obj.style.placeItems="center";
+
+  document.getElementById("aboutmeStuff").appendChild(this.obj);
+
+}
 
 
 
