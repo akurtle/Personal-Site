@@ -1,6 +1,7 @@
 
 body{
     overflow-x: hidden;
+    overflow-y: auto;
 }
 
 .header{
@@ -44,10 +45,14 @@ body{
 }
 
 .holder17>img{
- 
    height: 180px;
+}
 
-
+.hacker>img{
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+    align-self: center;
 }
 
 .btn{
