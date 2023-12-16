@@ -5,4 +5,4 @@
 #### Bootstrap has been used to style the components
 
 
-Currently being deployed on github pages : ![https://akurtle.github.io/Personal-Site/]
+Currently being deployed on github pages : https://akurtle.github.io/Personal-Site/
