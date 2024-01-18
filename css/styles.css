@@ -320,68 +320,15 @@
       
 }
 
-.stars1{
+.s1>*,.s2>*,.s3>*,.s4>*,.s5>*,.s6>*{
     display: inline;
     transition: all 0.2s ease-in-out;
 }
 
-.stars1:hover{
+.s1>*:hover,.s2>*:hover,.s3>*:hover,.s4>*:hover,.s5>*:hover,.s6>*:hover{
     cursor: default;
     color:goldenrod
 }
-
-.stars2{
-    display: inline;
-    transition: all 0.2s ease-in-out;
-}
-
-.stars2:hover{
-    cursor: default;
-    color:goldenrod
-}
-
-.stars3{
-    display: inline;
-    transition: all 0.2s ease-in-out;
-}
-
-.stars3:hover{
-    cursor: default;
-    color:goldenrod
-}
-
-.stars4{
-    display: inline;
-    transition: all 0.2s ease-in-out;
-}
-
-.stars4:hover{
-    cursor: default;
-    color:goldenrod
-}
-
-.stars5{
-    display: inline;
-    transition: all 0.2s ease-in-out;
-}
-
-.stars5:hover{
-    cursor: default;
-    color:goldenrod
-}
-
-.stars6{
-    display: inline;
-    transition: all 0.2s ease-in-out;
-}
-
-.stars6:hover{
-    cursor: default;
-    color:goldenrod
-}
-
-
-
 
 
 #contact-me{
