@@ -4,27 +4,50 @@ body{
     overflow-y: auto;
 }
 
+@media only screen and (max-width:1610px) {
+    .header-text{
+        font-size: 70px !important;
+    }
+}
+
+@media only screen and (max-width:940px) {
+    body{
+        position: relative;
+    }
+    .header{
+        width: 100dvw !important;
+        border-bottom-right-radius:50px !important;
+    }
+    .header-text{
+        font-size: 30px !important;
+    }
+    .main-container{
+        display: flex !important;
+        flex-direction: column;
+        border-top-left-radius: 50px !important ;
+    }
+}
+
 .header{
     width: 100vw;
     font-size: 20px;
     color: whitesmoke;
     background-color: gray;
-    display: flex;
-    height: 20vh;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-bottom-left-radius:200px ;
+    display: grid;
+    height: 180px;
+    grid-template-columns: 1fr 3fr;
+    border-bottom-right-radius:200px ;
 }
 
 .header-text{
     font-size: 100px;
+    align-self: center;
 }
 
 
 .main-container{
-    border-top-right-radius: 200px;
-    width: 100vw;
+    border-top-left-radius: 200px;
+    width: 100dvw;
     margin-top: 50px;
     gap: 20px;
     background-color: gainsboro;
@@ -55,6 +78,15 @@ body{
     align-self: center;
 }
 
-.btn{
-    align-items: baseline;
+
+.header>a{
+    display: flex;
+}
+
+.btn-heading{    
+    height: 60px;
+    width: 65px;
+    align-self: center;
+    margin-left: 10%;
+    background-color: none;
 }
