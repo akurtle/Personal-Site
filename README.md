@@ -6,3 +6,6 @@
 
 
 Currently being deployed on github pages : https://akurtle.github.io/Personal-Site/
+
+
+![Alt text](Images/MirzaSite.png?raw=true "Title")
